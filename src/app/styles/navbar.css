@@ -1,0 +1,37 @@
+.nav-menu {
+  width: 100vw;
+  height: calc(100vh - 96px);
+  position: fixed;
+  top: 96px;
+  left: 100vw;
+  transition: all 0.5s;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#nav-list .list-item a {
+  color: white;
+}
+
+#nav-list .list-item::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fddd60;
+  transition:
+    width 0.3s ease 0s,
+    left 0.3s ease 0s;
+  width: 0;
+}
+
+#nav-list .list-item:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.opened {
+  left: 0;
+}
