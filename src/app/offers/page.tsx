@@ -86,25 +86,27 @@ const Pricing = () => {
       </div>
       <div className='w-full md:hidden'>
         <Slider {...settings}>
-          {offers.map((offer, index) => (
-            <div key={index} className='p-2'>
-              <div
-                className={`rounded-lg bg-yellow-400 p-8 shadow-lg ${
-                  index === 1 ? 'scale-105' : ''
-                }`}
-              >
-                <h2 className='text-center text-xl font-bold'>
-                  {offer.duration}
-                </h2>
-                <p className='mt-4 text-center'>{offer.price}</p>
-                <p className='text-center'>{offer.daily}</p>
-                <p className='mt-2 text-center font-bold'>{offer.total}</p>
-                <button className='mt-6 w-full rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2'>
-                  Buy now
-                </button>
-              </div>
-            </div>
-          ))}
+          {offers.length > 0
+            ? offers.map((offer, index) => (
+                <div key={index} className='p-2'>
+                  <div
+                    className={`rounded-lg bg-yellow-400 p-8 shadow-lg ${
+                      index === 1 ? 'scale-105' : ''
+                    }`}
+                  >
+                    <h2 className='text-center text-xl font-bold'>
+                      {offer.duration}
+                    </h2>
+                    <p className='mt-4 text-center'>{offer.price}</p>
+                    <p className='text-center'>{offer.daily}</p>
+                    <p className='mt-2 text-center font-bold'>{offer.total}</p>
+                    <button className='mt-6 w-full rounded-md bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2'>
+                      Buy now
+                    </button>
+                  </div>
+                </div>
+              ))
+            : null}
         </Slider>
       </div>
     </div>
