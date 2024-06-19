@@ -11,7 +11,15 @@ const HeroSection = () => {
 
   return (
     <div id='hero-section' className='bg-hero-bg relative flex h-112 w-full'>
-      <video autoPlay muted loop id='hero-video'>
+      <video
+        playsInline
+        autoPlay
+        muted
+        loop
+        id='hero-video'
+        onContextMenu={() => false}
+        preload='auto'
+      >
         <source src='/assets/mmm-hero.mp4' type='video/mp4' />
       </video>
       <div className='z-10 box-border flex h-full w-full flex-col items-center justify-center px-8 xl:px-0 '>
