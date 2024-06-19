@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
 
-import icon1 from '../../../../public/assets/eye.png';
-import icon2 from '../../../../public/assets/target.png';
-import icon3 from '../../../../public/assets/agility.png';
+import icon1 from '../../../public/assets/eye.png';
+import icon2 from '../../../public/assets/target.png';
+import icon3 from '../../../public/assets/agility.png';
 
 const DemoSection = () => {
   return (
-    <div className='relative  flex w-full flex-col items-center bg-bgDark px-8 py-24 xl:px-0'>
+    <div className='relative  flex w-full flex-col items-center  px-8 py-24 xl:px-0'>
       <h1 className='mb-124 font-italic mb-24 text-center  font-playfair text-5xl font-bold text-primary-900'>
         De ce sa alegi MMM ?
       </h1>

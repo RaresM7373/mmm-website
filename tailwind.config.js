@@ -35,11 +35,10 @@ const config = {
       },
       colors: {
         bg: 'white',
-        bgDark: '#FFFBDA',
-        secondaryBg: '#423453',
+        bgDark: '#F0F2F8',
+        bgSecondary: '#F0F2F8',
         secondary: '#F3F8FF',
         accent: '#F5C070',
-        tcolor: '#070F2B',
         overlay: 'rgba(0,0,0, 0.5)',
         primary: {
           100: '#ece7fc',

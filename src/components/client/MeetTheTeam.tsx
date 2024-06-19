@@ -1,17 +1,18 @@
 import React from 'react';
 
 import Image from 'next/image';
-import FbIcon from '../../../../public/assets/facebook-icon.svg';
-import TwitterIcon from '../../../../public/assets/twitter-icon.svg';
-import InstaIcon from '../../../../public/assets/instagram-icon.svg';
+import FbIcon from '../../../public/assets/facebook-icon.svg';
+import TwitterIcon from '../../../public/assets/twitter-icon.svg';
+import InstaIcon from '../../../public/assets/instagram-icon.svg';
+import Link from 'next/link';
 
 const MeetTheTeam = () => {
   return (
-    <div className='flex w-full flex-col items-center justify-center bg-bg px-8 py-24 xl:px-0'>
+    <div className='flex w-full flex-col items-center justify-center bg-bgSecondary px-8 py-24 xl:px-0'>
       <p className='mb-2 font-primary text-xl text-primary-500'>
         - Cine suntem ? -
       </p>
-      <h1 className='mb-16 text-center font-playfair text-5xl font-bold text-black text-primary-900'>
+      <h1 className='mb-16 text-center font-playfair text-5xl font-bold  text-primary-900'>
         Intalneste echipa <br />
         din spatele{' '}
         <span className='italic text-primary-500'>MMM Adevertising</span>
@@ -41,7 +42,9 @@ const MeetTheTeam = () => {
           </p>
           <div className='flex items-center'>
             <Image src={FbIcon} alt='Facebook' className='mr-2 h-4 w-4' />
-            <Image src={TwitterIcon} alt='Twitter' className='mr-2 h-4 w-4' />
+            <Link href='https://www.instagram.com/razvan.margineannn?igsh=MTJnbWZqeXIyeXJpbQ=='>
+              <Image src={TwitterIcon} alt='Twitter' className='mr-2 h-4 w-4' />
+            </Link>
             <Image src={InstaIcon} alt='Instagram' className=' h-4 w-4' />
           </div>
         </div>

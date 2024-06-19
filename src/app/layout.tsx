@@ -3,8 +3,8 @@ import { Titillium_Web, Playfair_Display } from 'next/font/google';
 import './global.css';
 
 // import Button from './components/common/Button';
-import Footer from './components/client/Footer';
-import { NavBar } from './components/nav/NavBar';
+import Footer from '../components/client/Footer';
+import { NavBar } from '../components/nav/NavBar';
 
 const titillium = Titillium_Web({
   weight: ['400', '700'],
