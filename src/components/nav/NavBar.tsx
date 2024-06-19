@@ -33,7 +33,7 @@ export const NavBar = () => {
       <Image src={Logo} alt={'MMM Logo'} className='h-14 w-auto xl:block' />
       <div className='block xl:hidden'>
         <Hamburger toggled={isOpened} toggle={setIsOpened} color='#FDDD60' />
-        <MobileMenu opened={isOpened} />
+        <MobileMenu onClose={() => setIsOpened(false)} opened={isOpened} />
       </div>
       <ul
         id='nav-list'
