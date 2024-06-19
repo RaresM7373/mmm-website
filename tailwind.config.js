@@ -41,7 +41,7 @@ const config = {
       },
       colors: {
         bg: 'white',
-        bgDark: '#F0F2F8',
+        bgDark: '#fcfcde',
         bgSecondary: '#F0F2F8',
         bgContrast: '#1c1c1c',
         secondary: '#F3F8FF',

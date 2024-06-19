@@ -21,13 +21,20 @@ export const VideoSection = () => {
         </video>
       </div>
       <div className='mt-8 flex h-full w-full flex-col justify-center p-4 xl:mt-0 xl:w-1/2 xl:pl-16'>
-        <h2 className='text-4xl font-bold leading-tight xl:text-5xl'>
-          Automate answers and workflows in minutes
+        <h2 className='text-4xl  font-bold  leading-tight xl:text-5xl'>
+          <span className='font-playfair italic text-primary-500'>
+            Maximizează
+          </span>{' '}
+          expunerea{' '}
+          <span className='font-playfair italic text-primary-500'>
+            brandului
+          </span>{' '}
+          tău
         </h2>
-        <p className='mb-16 mt-4 text-lg xl:text-xl'>
-          Ut sociis habitant lorem tortor faucibus et sit tellus nulla. Justo
-          consequat dignissim massa convallis ullamcorper ac a vulputate dis.
-          Blandit maecenas blandit cras posuere gravida etiam.
+        <p className='mb-16 mt-4 text-lg   xl:text-xl'>
+          expunerea brandului tău cu ecranele noastre duale de 96 cm x 32 cm,
+          care acceptă formate MP4, MOV, GIF, PNG, JPG și HEIC și permit reclame
+          captivante de 6–8 secunde.
         </p>
         <Button type='outlined' onClick={() => {}}>
           See all features
