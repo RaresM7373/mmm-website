@@ -10,6 +10,12 @@ const config = {
       xl: '1240px',
     },
     extend: {
+      maxHeight: {
+        600: '1200px',
+      },
+      height: {
+        videoMobile: '1300px',
+      },
       spacing: {
         100: '28rem',
         104: '32rem',
@@ -37,6 +43,7 @@ const config = {
         bg: 'white',
         bgDark: '#F0F2F8',
         bgSecondary: '#F0F2F8',
+        bgContrast: '#1c1c1c',
         secondary: '#F3F8FF',
         accent: '#F5C070',
         overlay: 'rgba(0,0,0, 0.5)',

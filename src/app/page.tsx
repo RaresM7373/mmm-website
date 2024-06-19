@@ -1,3 +1,4 @@
+import { VideoSection } from '@/components/client/VideoSection';
 import AboutUsSection from '../components/client/AboutUsSection';
 import DemoSection from '../components/client/DemoSection';
 import HeroSection from '../components/client/HeroSection';
@@ -11,6 +12,7 @@ export default function Home() {
       <HeroSection />
       <DemoSection />
       <MeetTheTeam />
+      <VideoSection />
       <LiveUsersCount />
     </>
   );

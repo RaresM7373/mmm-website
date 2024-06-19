@@ -10,11 +10,27 @@
   height: 100vh;
 }
 
-#hero-video {
+video {
   width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
   object-fit: cover;
+}
+
+#specs-video {
+  height: 500px;
+  width: 650px;
+  position: absolute;
+  top: -220px;
+  left: 50px;
+}
+
+@media screen and (max-width: 1240px) {
+  #specs-video {
+    top: 100px;
+    width: 100%;
+    left: 0;
+  }
 }
