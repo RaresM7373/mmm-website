@@ -11,7 +11,9 @@ const HeroSection = () => {
 
   return (
     <div id='hero-section' className='bg-hero-bg relative flex h-112 w-full'>
-      <div className='absolute left-0 top-0 z-0 h-full w-full bg-overlay'></div>
+      <video autoPlay muted loop id='hero-video'>
+        <source src='/assets/mmm-hero.mp4' type='video/mp4' />
+      </video>
       <div className='z-10 box-border flex h-full w-full flex-col items-center justify-center px-8 xl:px-0 '>
         <h1 className='mb-10 text-center font-playfair text-5xl font-bold text-white xl:text-left'>
           O{' '}
