@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const config = {
   content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  darkMode: 'selector',
   theme: {
     screens: {
       sm: '650px',
@@ -33,15 +34,17 @@ const config = {
         hero_bg: "url('./public/assets/her')",
       },
       colors: {
-        bg: '#3D3C3C',
+        bg: 'white',
+        bgDark: '#FFFBDA',
         secondaryBg: '#423453',
         secondary: '#F3F8FF',
         accent: '#F5C070',
-        tcolor: '#575A7B',
+        tcolor: '#070F2B',
+        overlay: 'rgba(0,0,0, 0.5)',
         primary: {
           100: '#ece7fc',
           500: '#FDDD60',
-          700: '#5447d6',
+          700: '#d4b84a',
           900: '#1B1642',
         },
       },

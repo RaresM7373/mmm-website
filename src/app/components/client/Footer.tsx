@@ -13,10 +13,10 @@ const Footer = () => {
   return (
     <footer className='w-full bg-bg'>
       <div className='border-1 flex w-full flex-col items-center justify-between border-t border-solid border-tcolor px-8 py-6 sm:flex-row sm:px-24'>
-        <h1 className='mb-4 font-playfair text-4xl font-bold text-white sm:mb-0'>
+        <h1 className='mb-4 font-playfair text-4xl font-bold text-black sm:mb-0'>
           MMM Adevertising.
         </h1>
-        <p className='text-md font-primary font-thin text-white'>
+        <p className='text-md font-primary font-thin text-black'>
           &copy; {date} All rights reserved.
         </p>
       </div>

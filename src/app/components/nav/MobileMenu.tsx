@@ -14,11 +14,10 @@ export const MobileMenu = ({ opened }: Props) => {
 
   return (
     <div className={classes}>
-      <div className='flex h-full w-full flex-col items-center justify-center [&>p]:mb-8 [&>p]:cursor-pointer [&>p]:font-playfair [&>p]:text-5xl [&>p]:font-bold [&>p]:text-white'>
+      <div className='flex h-full w-full flex-col items-center justify-center [&>p]:mb-8 [&>p]:cursor-pointer [&>p]:font-playfair [&>p]:text-5xl [&>p]:font-bold [&>p]:text-black'>
         <p>Acasa</p>
-        <p>Despre Noi</p>
-        <p>Proces</p>
-        <p>Contact</p>
+        <p>Pentru Clienti</p>
+        <p>Oferte</p>
       </div>
     </div>
   );

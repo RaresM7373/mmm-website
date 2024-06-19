@@ -11,7 +11,7 @@ const MeetTheTeam = () => {
       <p className='mb-2 font-primary text-xl text-primary-500'>
         - Cine suntem ? -
       </p>
-      <h1 className='mb-16 text-center font-playfair text-5xl font-bold text-primary-900 text-white'>
+      <h1 className='mb-16 text-center font-playfair text-5xl font-bold text-black text-primary-900'>
         Intalneste echipa <br />
         din spatele{' '}
         <span className='italic text-primary-500'>MMM Adevertising</span>
@@ -19,7 +19,7 @@ const MeetTheTeam = () => {
       <div className='flex w-full flex-wrap justify-center'>
         <div className='mx-12 mb-12 flex flex-col'>
           <div className="mb-4 h-80 w-80 cursor-pointer rounded-xl bg-[url('/assets/tudor.jpeg')] bg-cover bg-center bg-no-repeat shadow-xl transition-all hover:scale-105"></div>
-          <p className='font-primary text-3xl font-bold text-white'>
+          <p className='font-primary text-3xl font-bold text-black'>
             Tudor Muresan
           </p>
           <p className='font-primary-500 mb-1 text-lg text-primary-500'>
@@ -33,7 +33,7 @@ const MeetTheTeam = () => {
         </div>
         <div className='mx-12 mb-12 flex flex-col'>
           <div className="mb-4 h-80 w-80 cursor-pointer rounded-xl bg-[url('/assets/razvan.jpeg')] bg-cover bg-center bg-no-repeat shadow-xl transition-all hover:scale-105"></div>
-          <p className='font-primary text-3xl font-bold text-white'>
+          <p className='font-primary text-3xl font-bold text-black'>
             Razvan Marginean
           </p>
           <p className='text-primary mb-1 font-primary text-lg text-primary-500'>

@@ -67,7 +67,7 @@ const Pricing = () => {
 
   return (
     <div className='flex min-h-screen flex-col items-center justify-center bg-bg px-4 py-24 xl:px-0'>
-      <h1 className='mb-8 text-center text-4xl font-bold text-white'>Oferte</h1>
+      <h1 className='mb-8 text-center text-4xl font-bold text-black'>Oferte</h1>
       <div className='hidden md:flex md:justify-center md:space-x-8'>
         {offers.map((offer, index) => (
           <div

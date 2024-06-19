@@ -10,8 +10,6 @@ export default function Home() {
     <>
       <HeroSection />
       <DemoSection />
-      {/* <AboutUsSection /> */}
-      {/* <OurMission /> */}
       <MeetTheTeam />
       <LiveUsersCount />
     </>

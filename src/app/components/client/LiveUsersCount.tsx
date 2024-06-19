@@ -27,11 +27,11 @@ const LiveUsersCount = () => {
 
   return (
     <div className='flex w-full flex-col items-center px-8 py-24 xl:px-0'>
-      <h1 className='mb-6 text-center font-playfair text-5xl font-bold text-white'>
+      <h1 className='mb-6 text-center font-playfair text-5xl font-bold text-black'>
         Clienti cu care colaboram
       </h1>
 
-      <div className='flex flex-col items-center justify-center bg-bg px-4 py-8 text-white'>
+      <div className='flex flex-col items-center justify-center bg-bg px-4 py-8 text-black'>
         <div className='flex flex-wrap items-center justify-center gap-16'>
           {clients.map((client, index) => (
             <div

@@ -10,8 +10,9 @@ const HeroSection = () => {
   const handleSignUp = () => {};
 
   return (
-    <div id='hero-section' className='bg-hero-bg flex h-112 w-full'>
-      <div className='box-border flex h-full w-full flex-col items-center justify-center px-8 xl:w-1/2 xl:items-start xl:px-0 xl:pl-24'>
+    <div id='hero-section' className='bg-hero-bg relative flex h-112 w-full'>
+      <div className='absolute left-0 top-0 z-0 h-full w-full bg-overlay'></div>
+      <div className='z-10 box-border flex h-full w-full flex-col items-center justify-center px-8 xl:px-0 '>
         <h1 className='mb-10 text-center font-playfair text-5xl font-bold text-white xl:text-left'>
           O{' '}
           <span className='italic text-primary-500'>
@@ -23,11 +24,8 @@ const HeroSection = () => {
           Partenerul tău strategic pentru vizibilitate și interacțiune de top
         </p>
         <div className='mt-8 flex flex-col xl:flex-row'>
-          <Button onClick={handleLearnMore}>Start Campanie!</Button>
+          <Button onClick={handleLearnMore}>Start Campanie</Button>
         </div>
-      </div>
-      <div className='hidden w-full items-center justify-center xl:flex xl:w-1/2'>
-        {/* <Image src={heroImg} alt='Hero section image ' className=' w-104' /> */}
       </div>
     </div>
   );
